@@ -57,6 +57,7 @@ promptinit
 # Enable colors and change prompt:
 autoload -U colors && colors
 PS1="%B%{$fg[red]%}[%{$fg[yellow]%}darwin%{$fg[green]%}@%{$fg[blue]%}arch %{$fg[magenta]%}%~%{$fg[red]%}]%{$reset_color%} ➜ %b"
+# Change "darwin" and "arch" to %n and %m respectively to show your username and hostname
 
 # Alises
 # Confirm before overwriting something:
